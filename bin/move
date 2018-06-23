@@ -7,4 +7,5 @@ puts "Where would you like to go?"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-gets.strip
+gets.strip = input
+input_to_index(input)
